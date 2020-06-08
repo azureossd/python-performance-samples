@@ -1,4 +1,7 @@
-import time
+from flask import Flask
+import os, time
+
+app = Flask(__name__)
 num = 1
 
 def firstMethod():
@@ -15,5 +18,10 @@ def secondMethod():
 def thirdMethod(n):
     time.sleep(n) #Sleep
 
-firstMethod()
+@app.route("/")
+def home():  
+    result = firstMethod()
+    return "%s!" %result
 
+if __name__ == '__main__':
+    app.run()
