@@ -1,5 +1,6 @@
 # How to run this sample code
 
+## Flask App
 1. Create a virtual environment with any python version >=3.
     - If you are using Windows:
         ```shell
@@ -25,10 +26,23 @@
 4. Run the application.
     - If you are using Windows:
         ```shell
-            python index.py
+            python app.py
         ```
     - If you are using Linux:
         ```shell
-            python3 index.py
+            python3 app.py
         ```
     > The application will be listening by default on **http://127.0.0.1:5000/**
+
+
+## Python script
+> For this sample you don't need any virtual environment since there are not extra libraries to be installed.
+1. Run the application.
+    - If you are using Windows:
+        ```shell
+            python script.py
+        ```
+    - If you are using Linux:
+        ```shell
+            python3 script.py
+        ```
