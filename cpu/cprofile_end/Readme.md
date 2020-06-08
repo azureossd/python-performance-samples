@@ -3,7 +3,7 @@
 ## Flask App
 1. Create a virtual environment with any python version >=3.
     - If you are using Windows:
-    
+
         ```shell
             python -m venv env
         ```
@@ -43,16 +43,16 @@
 5. Configure output.
     If you want to print the results in console use the following lines of code:
 
-        ```python
-            ps.print_stats()
-            print(s.getvalue())
-        ```
+    ```python
+        ps.print_stats()
+        print(s.getvalue())
+    ```
 
     If you want to redirect stdout to a file, use the following code:
 
-        ```python
-            ps.dump_stats('output.txt')
-        ```
+    ```python
+        ps.dump_stats('output.txt')
+    ```
      > You will need another step to review this output.
 
 6. You can also use the following ways to run cProfile to specific function: 
