@@ -48,11 +48,15 @@
 
 6. You can also use the following ways to run cProfile to specific function: 
 
-`cProfile.run('firstMethod()')`  
+    ```python
+        cProfile.run('firstMethod()')
+    ```
 
-Or  
+    Or this one:
 
-`cProfile.runctx('firstMethod()', globals(), locals())`
+    ```python
+        cProfile.runctx('firstMethod()', globals(), locals())
+    ```
 
 ## Python script
 > For this sample you don't need any virtual environment since there are not extra libraries to be installed.
@@ -71,8 +75,12 @@ Or
 ```
 3. You can also use the following ways to run cProfile to specific function: 
 
-`cProfile.run('firstMethod()')`  
+    ```python
+        cProfile.run('firstMethod()')
+    ```
 
-Or  
+    Or this one:
 
-`cProfile.runctx('firstMethod()', globals(), locals())`
+    ```python
+        cProfile.runctx('firstMethod()', globals(), locals())
+    ```
