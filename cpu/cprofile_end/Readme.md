@@ -46,6 +46,13 @@
         ```
      > You will need another step to review this output.
 
+
+> You can also use the following methods to run cProfile to specific function: 
+
+> `cProfile.run('firstMethod()')`
+> Or
+> `cProfile.runctx('firstMethod()', globals(), locals())`
+
 ## Python script
 > For this sample you don't need any virtual environment since there are not extra libraries to be installed.
 1. Run the application.
@@ -61,3 +68,9 @@
 ```shell
     python -m cProfile -s cumtime script.py
 ```
+
+> You can also use the following methods to run cProfile to specific function: 
+
+> `cProfile.run('firstMethod()')`
+> Or
+> `cProfile.runctx('firstMethod()', globals(), locals())`

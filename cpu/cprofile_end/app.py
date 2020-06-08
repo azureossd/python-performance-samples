@@ -40,6 +40,7 @@ def home():
 if __name__ == '__main__':
     app.run()
 
-    
-    #cProfile.run('firstMethod()')
-    #cProfile.runctx('firstMethod()', globals(), locals())
+
+# You can also use the following methods to run cProfile to specific function 
+# cProfile.run('firstMethod()')
+# cProfile.runctx('firstMethod()', globals(), locals())
