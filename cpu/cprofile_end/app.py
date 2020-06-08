@@ -32,14 +32,14 @@ def home():
     s = io.StringIO()
     sortby = SortKey.CUMULATIVE
     ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
-    #ps.print_stats()
-    #print(s.getvalue())
-    ps.dump_stats('output.txt')
-    
-    #cProfile.run('firstMethod()')
-    #cProfile.runctx('firstMethod()', globals(), locals())
+    ps.print_stats()
+    print(s.getvalue())
+    #ps.dump_stats('output.txt')
     return "%s!" %result
 
 if __name__ == '__main__':
     app.run()
 
+    
+    #cProfile.run('firstMethod()')
+    #cProfile.runctx('firstMethod()', globals(), locals())
