@@ -1,6 +1,6 @@
 # How to profile memory with memory_profiler
 
-- Download this sample using `git clone https://github.com/azureossd/python-performance-samples.git`
+- Download this example using `git clone https://github.com/azureossd/python-performance-samples.git`
 - Cd into **python-performance-samples/memory/memory_profiler_initial/**
 
 

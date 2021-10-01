@@ -1,6 +1,6 @@
 # How to profile cpu with cProfile
 
-- Download this sample using `git clone https://github.com/azureossd/python-performance-samples.git`
+- Download this example using `git clone https://github.com/azureossd/python-performance-samples.git`
 - Cd into **python-performance-samples/cpu/cprofile_initial/**
 
 
