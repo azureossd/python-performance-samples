@@ -1,5 +1,5 @@
 Django==3.1.13
-whitenoise==5.1.0
+whitenoise==6.12.0
 pyinstrument
 pandas
 ftfy
